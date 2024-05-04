@@ -6,6 +6,7 @@ import '../login/login.css'
 import Navbar from '../../components/navbar/Navbar'
 import Header from '../../components/header/Header'
 import FooterBottom from "../../components/footerBottom/FooterBottom";
+import logo from '../../assets/Header → Link → logo.svg.svg'
 
 function Login() {
 const navigation = useNavigate();
@@ -35,10 +36,11 @@ const navigation = useNavigate();
       <Navbar/>
       <Header/>
     <div className='container nav-link12'>
+      <img className='login__img' src={logo} alt="" />
     <form onSubmit={inpSubmit} >
           <label htmlFor="text">
             <p>Email Address</p>
-            <input
+            <input className='input'
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               required
@@ -50,7 +52,7 @@ const navigation = useNavigate();
           </label>
           <label htmlFor="password">
             <p>Password</p>
-            <input
+            <input className='input'
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
