@@ -1,0 +1,11 @@
+.card{
+    display: flex;
+    padding-top: 35px;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+}
+.nav2{
+    display: flex;
+}

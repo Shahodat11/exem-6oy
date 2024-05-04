@@ -1,0 +1,123 @@
+.admin__nav-link{
+    display: flex;
+    justify-content: space-between;
+}
+.admin__card{
+    padding-top: 50px;
+    padding-left: 25px;
+    width: 447.22px;
+    height: 357.98px;
+    top: 311.25px;
+    left: 289.17px;
+    gap: 0px;
+    opacity: 0px;
+}
+.admin__cards{
+    padding-top: 120px;
+    padding-left: 25px;
+    width: 447.22px;
+    height: 357.98px;
+    top: 311.25px;
+    left: 289.17px;
+    gap: 0px;
+    opacity: 0px;
+}
+.admin__h44{
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    color: #3BB77E;
+}
+.admin__panel{
+    font-family: Quicksand;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    color: #253D4E;
+}
+.admin__p{
+    max-width: 380px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 25px;
+    color: #7E7E7E;
+}
+.cards__h4{
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #253D4E;
+}
+.cards__p{
+    max-width: 380px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7E7E7E;
+}
+.admin__img{
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.nav11__h4{
+    margin-bottom: 14px;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    color: #3BB77E;
+}
+.nav11__h5{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7E7E7E;
+    padding-top: 4px;
+}
+.button{
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 116.27px;
+    height: 39.59px;
+    top: 159.8px;
+    left: 12px;
+    gap: 0px;
+    border-radius: 4px;
+    opacity: 0px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-color: #3BB77E;
+    color: #fff;
+    border: 2px solid #3BB77E;
+}
+.button:hover{
+    transition: all .2s linear;
+    color: #3BB77E;
+    background-color: #fff;
+}
+.nav-link11{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav11{
+    padding-left: 40px;
+    padding-right: 40px;
+}
